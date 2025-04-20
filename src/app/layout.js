@@ -6,12 +6,12 @@ export const metadata = {
   applicationName: "Frameworks",
   keywords: "Frameworks",
   
-  // // Icons
-  // icons: {
-  //   icon: "/favicon.ico",
-  //   shortcut: "/favicon.ico",
-  //   apple: "/favicon.ico",
-  // },
+  // Icons
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
   
   // // Theme and Display
   // manifest: "/site.webmanifest",

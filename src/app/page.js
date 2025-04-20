@@ -102,7 +102,7 @@ export default function Home() {
         <div className="max-w-7xl w-full">
           <h2 className={`${kranky.className} text-5xl mb-12 text-center`}>Portfolio</h2>
           <p className={`${indieFlower.className} text-lg mb-4 text-center`}>
-          Here is a collection of all my work. I hope you enjoy exploring and find inspiration in what I've created.</p>
+            Here is a collection of all my work. I hope you enjoy exploring and find inspiration in what I've created.</p>
           {/* Latest Project */}
           <div className="mb-16">
             <h3 className={`${indieFlower.className} text-3xl text-[#DEC800] mb-8`}>Latest Project</h3>
@@ -227,15 +227,41 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      {/* Service section */}
       <section className="flex justify-center items-center min-h-screen">
         <div className="flex gap-8 items-center max-w-7xl">
-        <h2 className={`${kranky.className} text-5xl mb-4`}>Service</h2>
-        <p className={`${indieFlower.className} text-4xl mb-8 w-[500px]`}>
-        Full-Stack Web Development, Frontend Development, Backend Development, Booking & Admin Systems, E-commerce Development, SEO & Performance Optimization, Web Hosting & Deployment, 1-on-1 Tutoring & Web Consulting, Website Maintenance & Updates
-            </p>
+          <h2 className={`${kranky.className} text-5xl mb-4`}>Service</h2>
+          <div className={`${indieFlower.className} text-4xl mb-8`}>
+            <span className={`${indieFlower.className} transition-all ease-in-out duration-700 hover:text-[#DEC800] hover:text-5xl cursor-pointer`}>
+              Full-Stack Web Development ,
+            </span>
+            <span className={`${indieFlower.className} transition-all ease-in-out duration-700 hover:text-[#DEC800] hover:text-5xl cursor-pointer`}>
+              Frontend Development ,
+            </span>
+            <span className={`${indieFlower.className} transition-all ease-in-out duration-700 hover:text-[#DEC800] hover:text-5xl cursor-pointer`}>
+              Backend Development ,
+            </span>
+            <span className={`${indieFlower.className} transition-all ease-in-out duration-700 hover:text-[#DEC800] hover:text-5xl cursor-pointer`}>
+              Booking & Admin Systems ,
+            </span>
+            <span className={`${indieFlower.className} transition-all ease-in-out duration-700 hover:text-[#DEC800] hover:text-5xl cursor-pointer`}>
+              E-commerce Development ,
+            </span>
+            <span className={`${indieFlower.className} transition-all ease-in-out duration-700 hover:text-[#DEC800] hover:text-5xl cursor-pointer`}>
+              SEO & Performance Optimization ,
+            </span>
+            <span className={`${indieFlower.className} transition-all ease-in-out duration-700 hover:text-[#DEC800] hover:text-5xl cursor-pointer`}>
+              Web Hosting & Deployment ,
+            </span>
+            <span className={`${indieFlower.className} transition-all ease-in-out duration-700 hover:text-[#DEC800] hover:text-5xl cursor-pointer`}>
+              1-on-1 Tutoring & Web Consulting ,
+            </span>
+            <span className={`${indieFlower.className} transition-all ease-in-out duration-700 hover:text-[#DEC800] hover:text-5xl cursor-pointer`}>
+              Website Maintenance & Updates ,
+            </span>
+          </div>
         </div>
-        </section>
+      </section>
     </main>
   );
 }
