@@ -30,7 +30,7 @@ export default function Home() {
           <div className={`${indieFlower.className} text-lg md:text-xl`}>
             Welcome to My Website!
           </div>
-          <div className={`${indieFlower.className} text-base md:text-lg leading-relaxed max-w-prose`}>
+          <div className={`${indieFlower.className} text-base md:text-lg`}>
             I'm thrilled to have you here to explore my work and projects. Feel free to dive in, and I hope you enjoy the journey as much as I've enjoyed creating it. Wishing you success and inspiration, today and beyond!
           </div>
         </div>
@@ -40,7 +40,7 @@ export default function Home() {
             alt="Profile picture"
             width={265}
             height={368}
-            className="w-[200px] md:w-[265px] h-auto rounded-lg shadow-lg"
+            className="w-[200px] md:w-[265px] mt-[140px] md:mt-0 h-auto rounded-lg shadow-lg"
             priority
           />
         </div>
