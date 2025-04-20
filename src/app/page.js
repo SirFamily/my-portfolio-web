@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#FCFDF8] px-[66px]">
       <Navbar />
-      
+
       {/* Hero Section */}
       <section className="flex justify-center items-center min-h-screen">
         <div className="flex gap-8 items-center max-w-7xl">
@@ -36,9 +36,9 @@ export default function Home() {
               Welcome to My Website!
             </div>
             <p className={`${indieFlower.className} text-lg`}>
-              I'm thrilled to have you here to explore my work and projects. 
-              Feel free to dive in, and I hope you enjoy the journey as much 
-              as I've enjoyed creating it. Wishing you success and inspiration, 
+              I'm thrilled to have you here to explore my work and projects.
+              Feel free to dive in, and I hope you enjoy the journey as much
+              as I've enjoyed creating it. Wishing you success and inspiration,
               today and beyond!
             </p>
           </div>
@@ -71,25 +71,25 @@ export default function Home() {
           <div className="max-w-2xl">
             <h2 className={`${kranky.className} text-5xl mb-4`}>About Me</h2>
             <p className={`${indieFlower.className} text-xl mb-8`}>
-              <span className="text-2xl text-[#DEC800]">Thiraphat Chonlathep</span> is 
-              a Computer Engineering student at Rajamangala University of Technology Isan, 
-              Khon Kaen Campus. He is passionate about UI/UX design and frontend development, 
-              with hands-on experience in related tools and technologies. Thiraphat aims to 
+              <span className="text-2xl text-[#DEC800]">Thiraphat Chonlathep</span> is
+              a Computer Engineering student at Rajamangala University of Technology Isan,
+              Khon Kaen Campus. He is passionate about UI/UX design and frontend development,
+              with hands-on experience in related tools and technologies. Thiraphat aims to
               create creative and high-quality web development work.
             </p>
-            
+
             <h2 className={`${kranky.className} text-5xl mb-4`}>Skills&Tools</h2>
             <div className="space-y-2">
               <div className={`${indieFlower.className} text-lg`}>
-                <span className="text-2xl text-[#DEC800]">UI/UX Design</span> - 
+                <span className="text-2xl text-[#DEC800]">UI/UX Design</span> -
                 Figma, Adobe XD, Canva
               </div>
               <div className={`${indieFlower.className} text-lg`}>
-                <span className="text-2xl text-[#DEC800]">Frontend Development</span> - 
+                <span className="text-2xl text-[#DEC800]">Frontend Development</span> -
                 HTML, CSS, JavaScript, React.js, Next.js
               </div>
               <div className={`${indieFlower.className} text-lg`}>
-                <span className="text-2xl text-[#DEC800]">Backend Development</span> - 
+                <span className="text-2xl text-[#DEC800]">Backend Development</span> -
                 Node.js, Express.js, MongoDB
               </div>
             </div>
@@ -101,7 +101,8 @@ export default function Home() {
       <section className="flex flex-col justify-center items-center min-h-screen py-16">
         <div className="max-w-7xl w-full">
           <h2 className={`${kranky.className} text-5xl mb-12 text-center`}>Portfolio</h2>
-
+          <p className={`${indieFlower.className} text-lg mb-4 text-center`}>
+          Here is a collection of all my work. I hope you enjoy exploring and find inspiration in what I've created.</p>
           {/* Latest Project */}
           <div className="mb-16">
             <h3 className={`${indieFlower.className} text-3xl text-[#DEC800] mb-8`}>Latest Project</h3>
