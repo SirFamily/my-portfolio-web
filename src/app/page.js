@@ -227,6 +227,15 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section className="flex justify-center items-center min-h-screen">
+        <div className="flex gap-8 items-center max-w-7xl">
+        <h2 className={`${kranky.className} text-5xl mb-4`}>Service</h2>
+        <p className={`${indieFlower.className} text-4xl mb-8 w-[500px]`}>
+        Full-Stack Web Development, Frontend Development, Backend Development, Booking & Admin Systems, E-commerce Development, SEO & Performance Optimization, Web Hosting & Deployment, 1-on-1 Tutoring & Web Consulting, Website Maintenance & Updates
+            </p>
+        </div>
+        </section>
     </main>
   );
 }
