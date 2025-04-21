@@ -257,7 +257,7 @@ export default function Home() {
               1-on-1 Tutoring & Web Consulting ,
             </span>
             <span className={`${indieFlower.className} transition-all ease-in-out duration-700 hover:text-[#DEC800] hover:text-5xl cursor-pointer`}>
-              Website Maintenance & Updates ,
+              Website Maintenance & Updates
             </span>
           </div>
         </div>
