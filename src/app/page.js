@@ -230,7 +230,7 @@ export default function Home() {
       {/* Service section */}
       <section className="flex justify-center items-center min-h-screen">
         <div className="flex gap-8 items-center max-w-7xl">
-          <h2 className={`${kranky.className} text-5xl mb-4`}>Service</h2>
+          <h2 className={`${kranky.className} text-5xl mb-4 pr-4`}>Service</h2>
           <div className={`${indieFlower.className} text-4xl mb-8`}>
             <span className={`${indieFlower.className} transition-all ease-in-out duration-700 hover:text-[#DEC800] hover:text-5xl cursor-pointer`}>
               Full-Stack Web Development ,
