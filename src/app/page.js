@@ -44,7 +44,7 @@ export default function Home() {
           </div>
           <div>
             <Image
-              src="/Dark Grey Simple Taped Photo Morning Couple Instagram Story.png"
+              src="/ProfilePic.png"
               alt="Profile picture"
               width={265}
               height={368}
@@ -60,7 +60,7 @@ export default function Home() {
         <div className="flex gap-8 items-center max-w-7xl">
           <div>
             <Image
-              src="/Beige Grey Retro Polaroid Photo Collage Summer Instagram Story.png"
+              src="/ProfilePicThree.png"
               alt="Profile picture"
               width={275}
               height={368}
